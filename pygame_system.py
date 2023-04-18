@@ -13,7 +13,7 @@ def main():
             if event.type == pg.QUIT: return
         
         tmr += 1
-        txt = fonto.render(str(tmr), True, (255, 0, 0))
+        txt = fonto.render(str(tmr), True, (255, 255, 255))
         screen.fill((0, 0, 0))
         screen.blit(txt, [300, 200])
         pg.display.update()
