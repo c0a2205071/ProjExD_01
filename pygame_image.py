@@ -8,7 +8,7 @@ def main():
     bg_img = pg.image.load("ex01/fig/pg_bg.jpg")
     kk_img = pg.image.load("ex01/fig/3.png")
     kk_img = pg.transform.flip(kk_img, True, False)
-    kk_imgs = [kk_img, pg.transform.rotozoom(kk_img, 10, 1.0), pg.transform.rotozoom(kk_img, 15, 1.0), pg.transform.rotozoom(kk_img, 20, 1.0),pg.transform.rotozoom(kk_img, 25, 1.0),pg.transform.rotozoom(kk_img, 30, 1.0),pg.transform.rotozoom(kk_img, 35, 1.0)]
+    kk_imgs = [kk_img, pg.transform.rotozoom(kk_img, 1, 1.0), pg.transform.rotozoom(kk_img, 3, 1.0), pg.transform.rotozoom(kk_img, 5, 1.0), pg.transform.rotozoom(kk_img, 7, 1.0), pg.transform.rotozoom(kk_img, 9, 1.0), pg.transform.rotozoom(kk_img, 11, 1.0), pg.transform.rotozoom(kk_img, 13, 1.0), pg.transform.rotozoom(kk_img, 15, 1.0), pg.transform.rotozoom(kk_img, 17, 1.0), pg.transform.rotozoom(kk_img, 19, 1.0)]
 
     tmr = 0
 
